@@ -16,10 +16,10 @@ void busca_funcionario(){}
 void imprime_funcionario(){}
 
 void salvar_dataset(char path[40]){
-    FILE *;
-    fopen(path, "w");
+    FILE *file_dataset;
+    file_dataset = fopen(path, "w");
 
-    fclose();
+    fclose(file_dataset);
 }
 
 void carregar_dataset(){}
