@@ -2,6 +2,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// CREATE TABLE IF NOT EXISTS funcionario
+struct Funcionario{
+    int matricula;
+    char nome[60];
+    int salario;
+};
+
+// APENAS UM TESTE DE LOAD E SAVE
+struct Funcionario staff[30];
 
 // Interface
 
@@ -44,7 +53,7 @@ int carregar_dataset(char path[40]){
     if(file_dataset == NULL){
         return EXIT_FAILURE;
     }else{
-        fgets(linha, sizeof(linha), file_dataset);
+        fscanf(file_dataset, "%s", linha);
     }
 
     fclose(file_dataset);

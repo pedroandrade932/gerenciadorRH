@@ -1,15 +1,15 @@
-Matrícula,Nome,Idade,Salário
-12345,João da Silva,30,5000
-67890,Maria Pereira,25,4500
-78901,Ana Souza,28,4800
-98765,Pedro Santos,32,5200
-45678,Carla Oliveira,27,4600
-34567,Marcos Gomes,31,5100
-23456,Luiza Fernandes,29,4900
-11111,Rafael Costa,26,4400
-22222,Beatriz Lima,24,4300
-33333,Victor Almeida,33,5300
-44444,Amanda Santos,25,4500
-55555,Bruno Silva,30,5000
-66666,Camila Oliveira,28,4800
-77777,Daniel Gomes,32,5200
+Matrícula,Nome,Salário
+12345,João da Silva,5000
+67890,Maria Pereira,4500
+78901,Ana Souza,4800
+98765,Pedro Santos,5200
+45678,Carla Oliveira,4600
+34567,Marcos Gomes,5100
+23456,Luiza Fernandes,4900
+11111,Rafael Costa,4400
+22222,Beatriz Lima,4300
+33333,Victor Almeida,5300
+44444,Amanda Santos,4500
+55555,Bruno Silva,5000
+66666,Camila Oliveira,4800
+77777,Daniel Gomes,5200
